@@ -1,0 +1,5 @@
+config.php
+sql/dump/*
+sql/dump
+docs/*
+docs/
