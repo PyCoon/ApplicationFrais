@@ -3,3 +3,4 @@ sql/dump/*
 sql/dump
 docs/*
 docs/
+.*

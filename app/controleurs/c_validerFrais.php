@@ -1,5 +1,4 @@
 <?php
-require_once("../config.php")
 require_once("include/fct.inc.php");
 if($_SESSION['idTypeCompte'] != 2){
     header('Location : index.php');
@@ -82,7 +81,7 @@ switch ($action) {
         $moisSelectionne = $_POST['moisSelectionne'];
         $pdo->majEtatFicheFrais($idDuVisiteurSelectionne,$moisSelectionne,'VA');
         // Redirection vers la page de selection
-        header('Location: '.$URL_ROOT.'index.php?uc=validerFrais&action=selection');
+        header('Location: '.$URL_ROOR.'index.php?uc=validerFrais&action=selection');
         exit();
         break;
 
